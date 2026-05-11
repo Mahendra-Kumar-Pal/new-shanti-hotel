@@ -1,0 +1,291 @@
+/* navbar css */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Roboto Slab', serif;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: -12px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#menu{
+	cursor:pointer;
+	border:1px solid #000;
+	border-radius:100px;
+	color: #fff;
+	width:50px;
+	height:50px;
+	text-align:center;
+}
+#header{
+	font-size:30px;
+	position:absolute;
+	z-index:1;
+	margin-top:25px;
+	padding:0 92px;
+	font-family: 'Poppins', sans-serif;
+}
+												/* index.html */
+/* banner */
+#carousel-1 .carousel-control-prev, .carousel-control-next{
+	margin-top:25%;
+	height:0;
+}
+/* facility section */
+#fac-c1r1c2{
+	padding-top:9px; 
+}
+#fac-c1r1c2 ul{
+	list-style:none; 
+	text-align:right;
+	padding-top:8px;
+}
+#fac-c1r1c2 ul li{
+	color:#9fa2ab; 
+	font-family: Lato, san-serif;
+	margin-bottom: 54px;
+}
+#fac-c1r1c3{
+	padding-top:9px; 
+}
+#fac-c1r1c3 ul{
+	list-style:none; 
+	text-align:left; 
+}
+#fac-c1r1c3 ul li{
+	border:1px solid #9fa2ab; 
+	border-radius:100px; 
+	width:39px; 
+	font-size:24px;
+	color: #656871;
+	text-align:center;
+	margin-bottom:40px;
+}
+/* accommodation */
+#acc-r2{
+	padding:0 94px;
+}
+#acc-con2 .item img{
+	border:1px solid #ddd;
+}
+												/* about css */
+#abos3r1c1img{
+	height:550px;
+}
+.count{
+	font-weight:800;
+}
+												/* room css */
+#roomcrsl .carousel-inner{
+	height:388px;
+}
+.rcrslimg{
+	height:388px;
+}
+#amenities span{
+	 float:left;
+	 color:#6e7382;
+	 margin:0 27px;
+	 font-family:Lato, san-serif;
+}
+#amenities p{
+	 font-size:14px;
+}
+/* modal popup css */
+#modal h4{
+	color:#f71a24;
+	 font-family:Lato, san-serif;
+}
+#troom ul{
+	list-style:none;
+	padding-left:0;
+	margin-top: 39px;
+}
+#troom ul li{
+	margin-bottom:24px;
+}
+#troom li input[type="text"], input[type="tel"], input[type="email"]{
+	padding:8px 10px;
+	width: 174px;
+	font-family:Lato, san-serif;
+	color:#8A877C;
+}
+#troom li input[type="tel"]{
+	width: 174px;
+}
+#troom li input[type="email"]{
+	width: 174px;
+}
+#troom li select{
+	padding:11px 10px;
+	width:174px;
+	font-family:Lato, san-serif;
+	color:#8A877C;
+}
+#troom li select option{
+	line-height:4px;
+}
+#troom li input[type="submit"]{
+	padding:8px 10px;
+	width: 135px;
+	background-color:#f71a24;
+	border: none;
+	font-family:Lato, san-serif;
+	margin-bottom:32px;
+	letter-spacing: 0.5px;
+    font-size: 18px;
+}
+
+#proom h4{
+	color:#f71a24;
+	 font-family:Lato, san-serif;
+}
+#proom ul{
+	list-style:none;
+	padding-left:0;
+	margin-top: 39px;
+}
+#proom ul li{
+	margin-bottom:24px;
+	text-align: center;
+}
+#proom li input[type="text"], input[type="tel"], input[type="email"]{
+	padding:8px 10px;
+	width: 285px;
+	font-family:Lato, san-serif;
+	color:#8A877C;
+	/* text-align:center; */
+}
+#proom li input[type="submit"]{
+	padding:8px 10px;
+	width: 135px;
+	background-color:#f71a24;
+	border: none;
+	font-family:Lato, san-serif;
+	margin-bottom:32px;
+	letter-spacing: 0.5px;
+    font-size: 18px;
+}
+											/* footer css */
+.footer-navigation h3 span {
+    color: #f71a24;
+}
+.fa.footer-contacts-icon {
+    background-color: #f71a24;
+	color:#000;
+}
+.social-links a {
+    background-color: #f71a24;
+	color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 760px){
+/* navigation */
+#header span{
+	display:none;
+}
+#menu{
+	display:block!important;
+}												/* index css */
+/* banner */
+#carousel-1 .carousel-control-prev, .carousel-control-next{
+	margin-top:59%;
+	height:0;
+}
+
+/* accommodation */
+	#acc-r2{
+		padding:0;
+	}
+												/* about css */
+	#aheader h1{
+		display:none;
+	}
+	#abos3r1c1img{
+		height:261px;
+	}
+	#footer .container{
+		padding-left:70px;
+	}
+												/* room css */
+	.projects{
+		border:1px solid #ddd;
+	}
+	#roomcrsl{
+		height:300px;
+	}
+	#roomcrsl .carousel-inner{
+		height:261px;
+	}
+	#roomcrsl .carousel-item img{
+		height:261px;
+	}
+/* contact css */
+	#cons2r1c1p{
+		width:339px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
